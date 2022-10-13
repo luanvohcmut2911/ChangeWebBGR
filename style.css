@@ -1,0 +1,39 @@
+body {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: "JetBrains Mono", monospace !important;
+  /* color: white !important ; */
+}
+
+#rand_btn {
+  background-color: pink;
+  border: none;
+}
+#rand_btn :hover {
+  cursor: pointer;
+  background-color: wheat;
+}
+
+#gradient_btn {
+  background-color: pink;
+  border: none;
+}
+#gradient_btn :hover {
+  cursor: pointer;
+  background-color: wheat;
+}
+
+#copy_btn {
+  background-color: pink;
+  border: none;
+}
+#copy_btn :hover {
+  cursor: pointer;
+  background-color: wheat;
+}/*# sourceMappingURL=style.css.map */

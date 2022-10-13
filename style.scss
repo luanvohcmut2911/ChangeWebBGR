@@ -1,0 +1,38 @@
+@mixin btn{
+    background-color: pink;
+    // opacity: 0.5;
+    border: none;
+}
+@mixin btn_hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+body{
+    background-color: green;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2{
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+}
+#rand_btn{
+    @include btn();
+    :hover{
+        @include btn_hover();
+    }
+}
+#gradient_btn{
+    @include btn();
+    :hover{
+        @include btn_hover();
+    }
+}
+#copy_btn{
+    @include btn();
+    :hover{
+        @include btn_hover();
+    }
+}
